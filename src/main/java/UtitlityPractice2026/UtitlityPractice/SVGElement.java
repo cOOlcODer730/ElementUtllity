@@ -18,7 +18,7 @@ public class SVGElement {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://petdiseasealerts.org/forecast-map/#/");
-		map-instance-86399
+		//map-instance-86399
 	}
 	public static void switchToFrameByIDorName(String frameNameorId) {
 		driver.switchTo().frame(frameNameorId);
@@ -40,9 +40,9 @@ public class SVGElement {
 		wait =new WebDriverWait(driver,Duration.ofSeconds(timeout));
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
-	Public static void doMoveToElement(By locator) {
-		
-	}
+//	Public static void doMoveToElement(By locator) {
+//		
+//	}
 	
 	
 	
