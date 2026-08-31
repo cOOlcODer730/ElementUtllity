@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 allure-results/
 screenshots/
 screenshot/
@@ -61,3 +62,6 @@ local.properties
 ## OS X
 ##############################
 .DS_Store
+=======
+/target/
+>>>>>>> f4caabc079f19826e23b54f5f01ebe6dde7e78e8

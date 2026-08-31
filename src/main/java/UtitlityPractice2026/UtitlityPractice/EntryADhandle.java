@@ -2,6 +2,7 @@ package UtitlityPractice2026.UtitlityPractice;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -44,7 +45,7 @@ public class EntryADhandle {
 		try{
 			return waitforElementVisible(timeout,locator).isDisplayed();
 		}
-		catch(Exception e) {
+		catch(NoSuchElementException e) {
 			e.printStackTrace();
 			return false;
 		}
